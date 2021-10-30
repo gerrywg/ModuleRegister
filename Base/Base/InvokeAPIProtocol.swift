@@ -49,6 +49,6 @@ public class ModuleRegisterManager {
     
     public func addRegister(operation: RegisterOperationType) {
         operationList.append(operation)
-        print(operation.sayHello())
+        operation.sayHello()
     }
 }
